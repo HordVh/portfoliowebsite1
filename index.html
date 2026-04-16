@@ -1,489 +1,311 @@
 <!DOCTYPE HTML>
 <!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Portfolio — Vova Siedykh
+	Built on Dimension by HTML5 UP (html5up.net | @ajlkn)
+	CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 	<head>
-		<title>Dimension by HTML5 UP</title>
+		<title>Vova Siedykh | CS Student</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/portfolio.css" />
 	</head>
 	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+		<!-- Fixed Top Navbar -->
+		<nav id="topnav">
+			<div class="nav-inner">
+				<a href="#hero" class="nav-brand">VS</a>
+				<ul class="nav-links" id="navLinks">
+					<li><a href="SiedykhVovaResume.pdf" target="_blank" class="nav-resume">Resume</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+					<span></span><span></span><span></span>
+				</button>
+			</div>
+		</nav>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-						<!-- <span class="icon fa-gem"></span> -->	
-						 <span class="logo image"><img src="images/IMG_2141.jpg" alt="" /></span>
+		<!-- Hero -->
+		<section id="hero">
+			<div id="bg"></div>
+			<div class="hero-overlay"></div>
+			<div class="hero-inner">
+				<div class="hero-photo">
+					<img src="images/IMG_2141.jpg" alt="Vova Siedykh" />
+				</div>
+				<div class="hero-text fade-in">
+					<h1>Hi, I'm Vova</h1>
+					<p class="hero-sub">Computer Science Student &nbsp;·&nbsp; Saint Joseph's University</p>
+					<p class="hero-tagline">Sophomore &nbsp;·&nbsp; GPA 3.93 &nbsp;·&nbsp; Java · TypeScript · Angular</p>
+					<div class="hero-actions">
+						<a href="SiedykhVovaResume.pdf" target="_blank" class="button primary">View Resume</a>
+						<a href="#projects" class="button">See Projects</a>
+					</div>
+				</div>
+			</div>
+			<a href="#about" class="hero-scroll-hint" aria-label="Scroll down">
+				<span class="scroll-arrow"></span>
+			</a>
+		</section>
+
+		<!-- About -->
+		<section id="about" class="section">
+			<div class="section-inner">
+				<h2 class="section-title reveal">About</h2>
+				<div class="about-grid reveal">
+					<div class="about-photo">
+						<img src="images/_DSC1625.jpeg" alt="Vova Siedykh" />
+					</div>
+					<div class="about-text">
+						<p>I am a Computer Science student at Saint Joseph's University with a strong interest in software development, problem-solving, and technology support. I enjoy working hands-on with both hardware and software, whether that means troubleshooting systems, resolving network issues, or building solutions through code. I have experience with Java, JavaScript, HTML, CSS, and common operating systems like Windows and macOS.</p>
+						<p>Through my role as a Student Technician at SJU's Technical Support Center, I resolve dozens of technical issues each week while supporting classrooms, offices, and large-scale systems like an Azure database used by thousands of students and staff. I value clear communication and strong customer service, which I developed further as a receptionist at the university Writing Center. I am fluent in English, Russian, and Ukrainian, enjoy working in team environments, and take pride in being reliable, detail-oriented, and proactive when tackling challenges.</p>
+						<div class="about-meta">
+							<div class="meta-item"><span class="meta-label">GPA</span><span class="meta-value">3.93</span></div>
+							<div class="meta-item"><span class="meta-label">Year</span><span class="meta-value">Sophomore</span></div>
+							<div class="meta-item"><span class="meta-label">Languages</span><span class="meta-value">EN · RU · UA</span></div>
+							<div class="meta-item"><span class="meta-label">Degree</span><span class="meta-value">B.S. Computer Science</span></div>
 						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Hi, I'm Vova</h1>
-								<p>A sophmore Computer Science student, studying at Saint Joseph's University <br>Feel free to look over my website!</br></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Skills -->
+		<section id="skills" class="section section-alt">
+			<div class="section-inner">
+				<h2 class="section-title reveal">Skills</h2>
+				<div class="skills-grid reveal">
+					<div class="skill-category">
+						<h3>Languages</h3>
+						<div class="skill-tags">
+							<span>Java</span>
+							<span>JavaScript</span>
+							<span>TypeScript</span>
+							<span>HTML5</span>
+							<span>CSS3</span>
+							<span>Python</span>
+						</div>
+					</div>
+					<div class="skill-category">
+						<h3>Frameworks</h3>
+						<div class="skill-tags">
+							<span>Angular</span>
+							<span>Next.js</span>
+							<span>FastAPI</span>
+							<span>Tailwind CSS</span>
+							<span>Pydantic</span>
+						</div>
+					</div>
+					<div class="skill-category">
+						<h3>Tools &amp; Platforms</h3>
+						<div class="skill-tags">
+							<span>Git</span>
+							<span>Azure</span>
+							<span>Vercel</span>
+							<span>Render</span>
+						</div>
+					</div>
+					<div class="skill-category">
+						<h3>Coursework</h3>
+						<div class="skill-tags">
+							<span>Data Structures</span>
+							<span>Computer Architecture</span>
+							<span>Software Engineering</span>
+							<span>Discrete Structures</span>
+							<span>Prog. Languages</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Projects -->
+		<section id="projects" class="section">
+			<div class="section-inner">
+				<h2 class="section-title reveal">Projects</h2>
+				<div class="projects-grid">
+
+					<div class="project-card reveal">
+						<div class="project-img project-img-placeholder">
+							<img src="images/logo.svg" alt="Infra-IT" />
+						</div>
+						<div class="project-content">
+							<h3>Infra-IT: AI-Powered Procurement System</h3>
+							<p>A full-stack procurement and inventory management prototype. Upload Excel inventory files, get AI-driven demand forecasts via Gemini, evaluate hardware candidates against current stock, and auto-generate draft purchase orders.</p>
+							<div class="project-tech">
+								<span>Next.js</span>
+								<span>TypeScript</span>
+								<span>Python</span>
+								<span>FastAPI</span>
+								<span>Gemini AI</span>
+							</div>
+							<div class="project-links">
+								<a href="https://github.com/HordVh/Infra-IT" target="_blank" class="button small">
+									<i class="icon brands fa-github"></i> GitHub
+								</a>
 							</div>
 						</div>
-						<nav>
-							<ul>
-								<li><a href="SiedykhVovaResume.pdf" target="_blank">Resume</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Resume -->
-							<article id="resume">
-								<h2 class="major">Resume</h2>
-								
-								<!-- Professional Summary -->
-								<h3>Professional Summary</h3>
-								<p>Computer Science student passionate about software development and problem-solving. Experienced in hardware/software troubleshooting</p>
-
-								<!-- Education -->
-								<h3>Education</h3>
-								<div class="education-entry">
-									<h4>Computer Science</h4>
-									<ul>
-									<li>Saint Joseph’s University - 2024 - 2028</li>
-									<li>GPA: 3.93</li>
-									<li>Relevant Coursework: Computer Science I and II, Discrete Structures, <br>Data Structures, Computer Architecture, Principles of Programming Languages, and Software Engineering</br></li>
-									</ul>
-								</div>
-
-								<!-- Work Experience -->
-								<h3>Professional Experience</h3>
-								<div class="experience-entry">
-									<h4>IT Technician</h4>
-									<p>Saint Joseph's University OIT | August 2025 - Present</p>
-									<ul>
-										<li>Resolving 30+ hardware and software issues weekly, ensuring uninterrupted classroom and office operations. Networking issues, internal and external software issues, printer troubleshooting, computer hardware troubleshooting, and classroom equipment maintenance
-</li>
-										<li>Managing Azure database with 15,000+ plus students and staff</li>
-										<li>Delivering high-quality customer service, ensuring positive experience while providing proactive solutions</li>
-									</ul>
-									<h4>Team Lead</h4>
-									<p>Panera Bread | May 2025 - Present</p>
-									<ul>
-										<li>Thrive in a fast-paced environment while maintaining efficiency and attention to detail</li>
-										<li>Provide leadership support by assisting team members, delegating tasks, and ensuring smooth workflow during peak hours</li>
-										<li>Deliver exceptional customer service by promptly addressing and resolving customer concerns</li>
-									</ul>
-									<h4>Receptionist</h4>
-									<p>Saint Joseph's University Writing Center | September 2024 - May 2025</p>
-									<ul>
-										<li>Fixed an error on the laptop that was not allowed students to sign in</li>
-										<li>Delivered high-quality customer service to students, fostering a positive and professional experience</li>
-										<li>Coordinated and scheduled student appointments to ensure efficient time management</li>
-									</ul>
-								</div>
-
-								<!-- Skills -->
-								<h3>Technical Skills</h3>
-								<ul class="skills-list">
-									<li>Programming Languages: Java, Javascript, TypeScript, HTML, CSS</li>
-									<li>Soft Skills: Customer service, problem-solving, teamwork, leadership</li>
-									<li>Languages: English, Russian, and Ukrainian</li>
-								</ul>
-
-								<!-- Projects -->
-								<h3>Notable Projects</h3>
-								<div class="project-entry">
-									<ul class = "skills-list">
-										<li>Portfolio Website</li>
-										<ul class = "skills-list">
-											<li>A website containing my resume, projects, about me, and contact information</li>
-											<li>Technologies used: HTML5UP, CSS, JavaScript</li>
-										</ul>
-										<li><a href="https://github.com/HordVh/ChessGame/tree/main" target="_blank">Chess Application With AI Features</a></li>
-										<ul class = "skills-list">
-											<li>A chess application that allows users to play against an AI opponent with varying difficulty levels. As well as playing against Gemini that is able to bypass the rules.</li>
-											<li>Technologies used: Angular, TypeScript, HTML, and CSS</li>
-										</ul>
-									</ul>									
-								</div>
-
-								<!-- Certifications -->
-								<h3>Certifications</h3>
-								<ul>
-									<li>CompTIA A+ - CompTIA (In progress)</li>
-								</ul>
-
-								<p>For more details about my projects, check out my <a href="#work">portfolio</a>.</p>
-							</article>
-
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
-								<p>Here is the list of all the programs that I've made:</p>
-								<ul>
-									<li><a href="https://github.com/HordVh/ChessGame/tree/main" target="_blank">
-										<span class="image"><img src="images/Logo.png" alt="" /></span>  Chess Application With AI Features</a>
-									</li>
-								</ul>
-								
-								
-							</article>
-
-						<!-- Program -->
-						<article id="program1">
-							<h2 class="major">Program</h2>
-							<h3>Sample program (JavaScript)</h3>
-							<p>This is a small example program. Click the button above in the Resume section to jump here.</p>
-							<div class="program-runner">
-								<label for="fib-input">Enter n (non-negative integer):</label>
-								<input id="fib-input" type="number" min="0" value="10" />
-								<button id="fib-run" class="button primary">Run</button>
-								<button id="fib-clear" class="button">Clear</button>
-								<div id="fib-output" class="box" style="margin-top:1em; white-space:pre-wrap;"></div>
-								<p><a href="#work" class="button">Back to Work</a></p>
-								<script>
-								(function(){
-								  const runBtn = document.getElementById('fib-run');
-								  const clearBtn = document.getElementById('fib-clear');
-								  const input = document.getElementById('fib-input');
-								  const output = document.getElementById('fib-output');
-
-								  function fib(n){
-								    if (n <= 1) return n;
-								    let a = 0, b = 1;
-								    for (let i = 2; i <= n; i++) {
-								      [a,b] = [b, a + b];
-								    }
-								    return b;
-								  }
-
-								  runBtn.addEventListener('click', function(){
-								    const n = Number(input.value);
-								    if (!Number.isFinite(n) || n < 0 || !Number.isInteger(n)){
-								      output.textContent = 'Please enter a non-negative integer.';
-								      return;
-								    }
-								    if (n > 1500) { output.textContent = 'Please enter a smaller number (<=1500).'; return; }
-								    const t0 = performance.now();
-								    const result = fib(n);
-								    const t1 = performance.now();
-								    output.textContent = `fib(${n}) = ${result}\nComputed in ${(t1 - t0).toFixed(3)} ms.`;
-								  });
-
-								  clearBtn.addEventListener('click', function(){ input.value = ''; output.textContent = ''; });
-								})();
-								</script>
-							</div>
-						</article>
-
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/_DSC1625.jpeg" alt="" /></span>
-								<p>I am a Computer Science student at Saint Joseph’s University with a strong interest in software development, problem-solving, and technology support. I enjoy working hands-on with both hardware and software, whether that means troubleshooting systems, resolving network issues, or building solutions through code. I have experience with Java, JavaScript, HTML, CSS, and common operating systems like Windows and macOS.<br> </br>
-								Through my role as a Student Technician at SJU’s Technical Support Center, I resolve dozens of technical issues each week while supporting classrooms, offices, and large-scale systems like an Azure database used by thousands of students and staff. I value clear communication and strong customer service, which I developed further as a receptionist at the university Writing Center. I am fluent in English, Russian, and Ukrainian, enjoy working in team environments, and take pride in being reliable, detail-oriented, and proactive when tackling challenges.</p>
-							</article>
-
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<p>If you'd like to get in touch with me, 
-									feel free to reach out through my email, GitHub profile, or LinkedIn!
-								<br> My email is: sedykhvova@gmail.com
-								<br> My LinkedIn is: <a href="https://www.linkedin.com/in/volodymyr-siedykh-590b70316/" target="_blank">LinkedIn</a>
-							</p>
-							<!-- <form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form> -->
-								<ul class="icons">
-									<li><a href="https://github.com/HordVh" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</article>
-
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
-
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
-
-								<section>
-									<h3 class="major">Lists</h3>
-
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
-
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-
-							</article>
-
 					</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy;Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>.</p>
-					</footer>
+					<div class="project-card reveal">
+						<div class="project-img">
+							<img src="images/Logo.png" alt="Chess Application" />
+						</div>
+						<div class="project-content">
+							<h3>Chess Application With AI Features</h3>
+							<p>A chess application that allows users to play against an AI opponent with varying difficulty levels, as well as playing against Gemini AI that is able to bypass the rules.</p>
+							<div class="project-tech">
+								<span>Angular</span>
+								<span>TypeScript</span>
+								<span>HTML</span>
+								<span>CSS</span>
+							</div>
+							<div class="project-links">
+								<a href="https://github.com/HordVh/ChessGame/tree/main" target="_blank" class="button small">
+									<i class="icon brands fa-github"></i> GitHub
+								</a>
+								<a href="https://chess-game-liart-mu.vercel.app/" target="_blank" class="button small">ChessKey</a>
+							</div>
+						</div>
+					</div>
 
+					<div class="project-card reveal">
+						<div class="project-img project-img-placeholder">
+							<span class="icon solid fa-globe"></span>
+						</div>
+						<div class="project-content">
+							<h3>Portfolio Website</h3>
+							<p>A personal portfolio website showcasing my resume, projects, experience, and contact information. Built with a clean developer aesthetic and recruiter-optimized layout.</p>
+							<div class="project-tech">
+								<span>HTML5</span>
+								<span>CSS3</span>
+								<span>JavaScript</span>
+							</div>
+							<div class="project-links">
+								<a href="https://github.com/HordVh/portfoliowebsite1" target="_blank" class="button small">
+									<i class="icon brands fa-github"></i> GitHub
+								</a>
+								<a href="index.html" class="button small">Live Site</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
 			</div>
+		</section>
 
-		<!-- BG -->
-			<div id="bg"></div>
+		<!-- Experience -->
+		<section id="experience" class="section section-alt">
+			<div class="section-inner">
+				<h2 class="section-title reveal">Experience</h2>
+				<div class="timeline">
+
+					<div class="timeline-item reveal">
+						<div class="timeline-marker"></div>
+						<div class="timeline-card">
+							<div class="timeline-header">
+								<div>
+									<h3>IT Technician</h3>
+									<p class="timeline-company">Saint Joseph's University OIT</p>
+								</div>
+								<span class="timeline-date">Aug 2025 – Present</span>
+							</div>
+							<ul class="timeline-bullets">
+								<li>Resolving 30+ hardware and software issues weekly — networking, internal/external software, printers, and classroom equipment</li>
+								<li>Managing Azure database with 15,000+ students and staff</li>
+								<li>Delivering high-quality customer service with proactive technical solutions</li>
+							</ul>
+							<div class="timeline-tags">
+								<span>Azure</span><span>Networking</span><span>Hardware</span><span>Customer Service</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="timeline-item reveal">
+						<div class="timeline-marker"></div>
+						<div class="timeline-card">
+							<div class="timeline-header">
+								<div>
+									<h3>Team Lead</h3>
+									<p class="timeline-company">Panera Bread</p>
+								</div>
+								<span class="timeline-date">May 2025 – Present</span>
+							</div>
+							<ul class="timeline-bullets">
+								<li>Provide leadership support — delegating tasks and ensuring smooth workflow during peak hours</li>
+								<li>Deliver exceptional customer service by promptly addressing and resolving concerns</li>
+								<li>Thrive in a fast-paced environment with consistent attention to detail</li>
+							</ul>
+							<div class="timeline-tags">
+								<span>Leadership</span><span>Team Management</span><span>Customer Service</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="timeline-item reveal">
+						<div class="timeline-marker"></div>
+						<div class="timeline-card">
+							<div class="timeline-header">
+								<div>
+									<h3>Receptionist</h3>
+									<p class="timeline-company">Saint Joseph's University Writing Center</p>
+								</div>
+								<span class="timeline-date">Sep 2024 – May 2025</span>
+							</div>
+							<ul class="timeline-bullets">
+								<li>Fixed a login error on the center laptop — enabling students to sign in seamlessly</li>
+								<li>Delivered high-quality customer service to students, fostering a positive experience</li>
+								<li>Coordinated and scheduled student appointments for efficient time management</li>
+							</ul>
+							<div class="timeline-tags">
+								<span>Troubleshooting</span><span>Scheduling</span><span>Communication</span>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="contact" class="section">
+			<div class="section-inner contact-inner">
+				<h2 class="section-title reveal">Contact</h2>
+				<p class="contact-lead reveal">If you'd like to get in touch with me, feel free to reach out through my email, GitHub profile, or LinkedIn!</p>
+				<div class="contact-links reveal">
+					<a href="mailto:sedykhvova@gmail.com" class="contact-item">
+						<span class="contact-icon icon solid fa-envelope"></span>
+						<span>sedykhvova@gmail.com</span>
+					</a>
+					<a href="https://www.linkedin.com/in/volodymyr-siedykh-590b70316/" target="_blank" class="contact-item">
+						<span class="contact-icon icon brands fa-linkedin"></span>
+						<span>LinkedIn</span>
+					</a>
+					<a href="https://github.com/HordVh" target="_blank" class="contact-item">
+						<span class="contact-icon icon brands fa-github"></span>
+						<span>GitHub</span>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<p class="copyright">&copy; Vova Siedykh &nbsp;·&nbsp; Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></p>
+		</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/portfolio.js"></script>
 
 	</body>
 </html>

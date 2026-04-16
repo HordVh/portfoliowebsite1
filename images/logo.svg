@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60">
+  <defs>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#818cf8"/>
+      <stop offset="100%" style="stop-color:#60a5fa"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Server rack icon -->
+  <!-- Rack body -->
+  <rect x="4" y="8" width="44" height="44" rx="5" ry="5" fill="url(#iconGrad)"/>
+
+  <!-- Server blades -->
+  <rect x="9" y="13" width="34" height="8" rx="2" ry="2" fill="#1e1b4b" opacity="0.6"/>
+  <rect x="9" y="25" width="34" height="8" rx="2" ry="2" fill="#1e1b4b" opacity="0.6"/>
+  <rect x="9" y="37" width="34" height="8" rx="2" ry="2" fill="#1e1b4b" opacity="0.6"/>
+
+  <!-- LED dots -->
+  <circle cx="38" cy="17" r="1.8" fill="#34d399"/>
+  <circle cx="34" cy="17" r="1.8" fill="#34d399" opacity="0.5"/>
+  <circle cx="38" cy="29" r="1.8" fill="#34d399"/>
+  <circle cx="34" cy="29" r="1.8" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="38" cy="41" r="1.8" fill="#34d399"/>
+  <circle cx="34" cy="41" r="1.8" fill="#34d399" opacity="0.5"/>
+
+  <!-- AI neural node overlay (top-right of icon) -->
+  <circle cx="42" cy="10" r="5" fill="#0f172a"/>
+  <circle cx="42" cy="10" r="3.5" fill="url(#glowGrad)"/>
+  <circle cx="42" cy="10" r="1.5" fill="white" opacity="0.9"/>
+
+  <!-- Connector lines from neural node -->
+  <line x1="38.5" y1="10" x2="35" y2="14" stroke="#818cf8" stroke-width="0.8" opacity="0.7"/>
+  <line x1="42" y1="14.5" x2="42" y2="18" stroke="#818cf8" stroke-width="0.8" opacity="0.7"/>
+
+  <!-- Wordmark -->
+  <text x="58" y="34" font-family="DM Sans, Inter, system-ui, sans-serif" font-weight="700" font-size="22" fill="#e2e8f0" letter-spacing="-0.5">Infra</text>
+  <text x="110" y="34" font-family="DM Sans, Inter, system-ui, sans-serif" font-weight="700" font-size="22" fill="url(#iconGrad)" letter-spacing="-0.5"> IT</text>
+
+  <!-- Tagline -->
+  <text x="58" y="46" font-family="DM Mono, ui-monospace, monospace" font-size="8" fill="#64748b" letter-spacing="1.5">AI PROCUREMENT</text>
+</svg>
